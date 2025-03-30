@@ -71,3 +71,4 @@ resource "aws_glue_job" "gule_test_job" {
     max_concurrent_runs = 1
   }
 }
+
