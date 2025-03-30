@@ -1,0 +1,17 @@
+{
+    "Glue": {
+        "worker_type": "G.1X",
+        "number_of_workers": 2,
+        "timeout_minutes": 2880,
+        "glue_version": "5.0"
+    },
+    "connection": {
+        "security_group_id": "sg-0e829cc882b945ce9",
+        "subnet_id": "subnet-070b343906d45de33",
+        "availability_zone": "ap-northeast-1a",
+        "jdbc_driver": {
+            "class_name": "org.mariadb.jdbc.Driver",
+            "jar_uri": "s3://mariabd-old/mariadb-java-client-2.7.2.jar"
+        }
+    }
+}

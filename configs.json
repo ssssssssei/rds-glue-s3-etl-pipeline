@@ -1,0 +1,26 @@
+{
+  "configs": {
+    "onewonder": {
+      "SecretsManager": {
+        "username": "maria",
+        "password": "wangxingran1995",
+        "table_name": "onewonder_data",
+        "db_name": "onewonder"
+      },
+      "S3": {
+        "source_bucket": "mariabd-old",
+        "source_key": "test.json",
+        "destination_bucket": "maria-new",
+        "destination_file": "test.csv"
+      },
+      "slack": {
+        "slack_webhook": "https://hooks.slack.com/services/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"
+      },
+      "Database": {
+        "endpoint": "onewonder-maria.cdnrnxfl6xnj.ap-northeast-1.rds.amazonaws.com",
+        "dbtype": "mysql",
+        "port": "3306"
+      }
+    }
+  }
+}
